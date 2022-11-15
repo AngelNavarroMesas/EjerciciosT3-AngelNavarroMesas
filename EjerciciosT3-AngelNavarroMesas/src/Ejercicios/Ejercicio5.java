@@ -9,7 +9,7 @@ public class Ejercicio5 {
 		
 		int a, b, mcm=0, mul;
 		
-		System.out.println("Introduzca dos numeros para averiguar su maximo comun divisor");
+		System.out.println("Introduzca dos numeros para averiguar su minimo comun multiplo");
 		a = sc.nextInt();
 		b = sc.nextInt();
 		
@@ -21,7 +21,7 @@ public class Ejercicio5 {
 		
 		while(true) {
 			
-			if(a%mul==0&&b%mul==0) {
+			if(mul%a==0&&mul%b==0) {
 				mcm=mul;
 				break;
 			}
