@@ -7,11 +7,14 @@ public class Ejercicio4 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
+		//Declaramos las variables
 		int a, b, mcd=0, div=1;
 		
+		//Le pedimos al usuario que introduzca dos numeros para calcular el maximo comun divisor y los escaneamos
 		System.out.println("Introduzca dos numeros para averiguar su maximo comun divisor");
 		a = sc.nextInt();
 		b = sc.nextInt();
+		
 		
 		while(true) {
 			
