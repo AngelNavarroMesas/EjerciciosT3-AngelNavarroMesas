@@ -18,11 +18,13 @@ public class Ejercicio9 {
 		if(num<=0) {
 			System.out.println("El numero introducido debe ser mayor que 0");
 		}else {
+			//Este bucle va dividiendo el numero introducido entre diez hasta que llega a 0 y cuenta cada loop para saber cuantas cifras tiene el numero
 			while(num!=0) {
 				num/=10;
 				dig++;
 			}
 		}
+		//Mostramos el resultado final
 		System.out.println("El numero introduido tiene "+dig+" digitos");
 		
 		sc.close();
